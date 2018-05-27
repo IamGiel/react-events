@@ -27,7 +27,7 @@ class App extends Component {
       <br/>
       <button onClick={() => this.changeName('Awsome Techsith :(')}>Change Using Anon Function</button>
       <br/>
-      {/* bind is more effiecent */}
+      {/* bind is more efficient */}
       <button onClick={this.changeName.bind(this, 'Awsome Techsith :)')}>Change Using Bind</button>
         <br/><br/><br/>
         <div>{this.state.name}</div>
