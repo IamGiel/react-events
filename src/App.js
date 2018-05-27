@@ -25,7 +25,7 @@ class App extends Component {
       {/* two way binding */}
       <input type="text" onChange={this.changeNameFromInput} value={this.state.name}/>
       <br/>
-      <button onClick={() => this.changeName('Awsome Techsith :(')}>Change Using Anon Function</button>
+      <button onClick={() => this.changeName('Awsome Techsith :(')}>Change Using Anonymous Function</button>
       <br/>
       {/* bind is more efficient */}
       <button onClick={this.changeName.bind(this, 'Awsome Techsith :)')}>Change Using Bind</button>
